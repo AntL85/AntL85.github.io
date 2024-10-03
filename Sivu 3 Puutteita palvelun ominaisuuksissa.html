@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>App review</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+
+
+</style>
+
+
+<body>
+
+<div class="Vasenyla">
+    <!--TÄLLÄ TAVALLA SAADAAN LUOTUA KOMMENTTI-->
+        <a href="Index.html" target="_blank">       
+            <img src="Site Logo.png" alt="logo of the site App review">
+        </a>
+   </div>
+   
+   <div class="KeskYlh">
+       <a href="https://www.nba.com" target="_blank">
+           <img src="NBA.png" alt="NBA logo">
+       </a>
+   </div>
+   
+   <div class="Oikeayla">
+    <!-- Image that triggers the dropdown -->
+    <img src="Hampurilaisvalikko.png" alt="Dropdown Image" id="dropdownImage">
+
+    <!-- Dropdown menu -->
+    <div class="dropdown-content" id="dropdownMenu">
+        <a href="Index.html">Etusivu</a>
+        <a href="Sivu 2 erot eri kayttoliittymilla.html">Erot eri käyttöliittymien toiminnallisuudessa</a>
+        <a href="Sivu 4 Parannusehdotukset.html">Parannusehdotukset</a>
+    </div>
+</div>
+
+<script>
+    // JavaScript to toggle the dropdown menu visibility
+    document.getElementById("dropdownImage").onclick = function () {
+        var dropdown = document.getElementById("dropdownMenu");
+        if (dropdown.style.display === "block") {
+            dropdown.style.display = "none";
+        } else {
+            dropdown.style.display = "block";
+        }
+    };
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+        if (!event.target.matches('#dropdownImage')) {
+            var dropdown = document.getElementById("dropdownMenu");
+            if (dropdown.style.display === "block") {
+                dropdown.style.display = "none";
+            }
+        }
+    };
+</script>
+
+
+<section>
+    <h1>Puutteita toiminnallisuuksissa</h1>
+    <p>Palvelun toiminnallisuudessa on käyttäjän kannalta kaksi ärsyttävää asiaa, joista toinen on oletus-asetusten puuttuminen otteluiden selostuskielen osalta. Käyttäjän kannalta on todella turhauttavaa joutua vaihtamaan väärällä kielellä alkanutta lähetystä joka kerta uudelleen. Ylipäätään kielen valit-seminen joka kerta uudelleen voi tuntua turhauttavalta.</p>
+    <p>Kielivalinnan lisääminen oletusasetuksiin tai käyttöliittymän toimintalogiikan muuttaminen niin, että oletuksena toistetaan sillä kielellä, mitä on edellisen kerran käytetty.</p>
+    <p>Toinen käyttäjää ärsyttävä puute käyttöliittymän toimintalogiikassa on siitä puuttuva sisältökohtainen muisti siitä, mihin käyttäjä on kyseistä videota katsellessaan viimeksi jäänyt. Tämä johtaa tilantee-seen, jossa käyttäjä joutuu jokainen kerta muistamaan mihin kohtaan on jäänyt ja kelaamaan tuo-hon kohtaan, mikäli ei katso koko videota kerralla loppuun.</p>
+    
+
+    <a href="https://www.nba.com" target="blank">Tutustu palveluun osoitteessa NBA.com</a>
+</section>
+
+<div class="image-container">
+        <a href="Sivu 2 erot eri kayttoliittymilla.html" target="_blank">
+            <img src="Linkki 3.2.png" alt="linkki sivuston sivulle erot eri käyttöliittymien toiminnallisuuksissa" class="side-by-side">
+        </a>
+
+        <a href="Sivu 4 Parannusehdotukset.html" target="_blank">
+            <img src="Linkki 3.4.png" alt="linkki sivulle parannusehdotukset" class="side-by-side">
+        </a>
+</div>
+
+</body>
+
+
+
+</html>
