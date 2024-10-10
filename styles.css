@@ -1,10 +1,11 @@
 h1 {
     color: rgb(0, 4, 219); font-family: Eczar ExtraBold, Arial, Helvetica, sans-serif;font-size: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 h2 {
     color: rgb(0, 4, 219); font-family: Eczar ExtraBold, Arial, Helvetica, sans-serif;font-size: 20px;
+    padding-top: 10px;
 }
 
 /* VOI MYÖS KÄYTTÄÄ PIILOTTAMISEEN JOS EI TIEDÄ KÄYTTÄÄKÖ
@@ -28,7 +29,7 @@ span class="span_virhea" // CSS .span_vihrea */
 /* Style the images to float side by side */
 .side-by-side {
     float: left; /* Float the images to the left */
-    width: 15%; /* Set each image to take % of the container's width */
+    width: 20%; /* Set each image to take % of the container's width */
     padding: 5px; /* Adds space between images */
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
 }
@@ -77,17 +78,19 @@ body {
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
     body {
         background-image: url('T Taustakuva.png');
+        background-position: center;
     }
 
     .image-container {
         overflow: auto; /* Ensures the container wraps around floated children */
         clear: both; /* Ensures the floated images do not overlap */
+    
     }
     
     /* Style the images to float side by side */
     .side-by-side {
         float: left; /* Float the images to the left */
-        width: 15%; /* Set each image to take % of the container's width */
+        width: 33%; /* Set each image to take % of the container's width */
         padding: 5px; /* Adds space between images */
         box-sizing: border-box; /* Ensures padding is included in the width calculation */
     }
@@ -97,6 +100,7 @@ body {
 @media only screen and (max-width: 767px) {
     body {
         background-image: url('M Taustakuva.png');
+        background-position: center;
     }
 
     .image-container {
@@ -108,9 +112,10 @@ body {
     }
     
     .side-by-side {
-        width: 40%; /* Kuvat vievät 15% leveydestä */
+        width: 80%; /* Kuvat vievät 15% leveydestä */
         padding: 10px; /* Lisää väliä kuvien ympärille */
         box-sizing: border-box; /* Sisällyttää paddingin kuvan leveyteen */
+        text-align: center;
     }
 }
 
@@ -139,7 +144,7 @@ body {
 
 /* Hover effect for dropdown items */
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: darkblue;
 }
 
 ul {
