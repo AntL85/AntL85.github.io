@@ -75,7 +75,7 @@ body {
 }
 
 /* For tablets (screen width between 768px and 1024px) */
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
+@media only screen and (max-width: 1024px) and (min-width: 820px) {
     body {
         background-image: url('T Taustakuva.png');
         background-position: center;
@@ -97,7 +97,7 @@ body {
 }
 
 /* For small devices like smartphones (screen width up to 767px) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 800px) {
     body {
         background-image: url('M Taustakuva.png');
         background-position: center;
@@ -112,7 +112,7 @@ body {
     }
     
     .side-by-side {
-        width: 80vw; /* Kuvat vievät 15% leveydestä */
+        width: 80vw; /* Kuvat vievät 15% tai vh = viewport % leveydestä */
         padding: 10px; /* Lisää väliä kuvien ympärille */
         box-sizing: border-box; /* Sisällyttää paddingin kuvan leveyteen */
         text-align: center;
