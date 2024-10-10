@@ -112,7 +112,7 @@ body {
     }
     
     .side-by-side {
-        width: 80%; /* Kuvat vievät 15% leveydestä */
+        width: 80vw; /* Kuvat vievät 15% leveydestä */
         padding: 10px; /* Lisää väliä kuvien ympärille */
         box-sizing: border-box; /* Sisällyttää paddingin kuvan leveyteen */
         text-align: center;
