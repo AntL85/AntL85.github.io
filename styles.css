@@ -97,7 +97,7 @@ body {
 }
 
 /* For small devices like smartphones (screen width up to 767px) */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1800px) {
     body {
         background-image: url('M Taustakuva.png');
         background-position: center;
