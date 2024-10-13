@@ -1,11 +1,13 @@
 @font-face {
     font-family: 'Eczar SemiBold';
     src: url('Eczar-SemiBold.ttf') format('truetype');
+    src: url('Eczar-SemiBold.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Eczar ExtraBold';
     src: url('Eczar-ExtraBold.ttf') format('truetype');
+    src: url('Eczar-SemiBold.woff') format('woff');
 }
 
 h1 {
@@ -123,7 +125,7 @@ body {
     }
     
     .side-by-side {
-        width: 80vw; /* Kuvat vievät 15% tai vh = viewport % leveydestä */
+        width: 50vw; /* Kuvat vievät 15% tai vh = viewport % leveydestä */
         padding: 10px; /* Lisää väliä kuvien ympärille */
         box-sizing: border-box; /* Sisällyttää paddingin kuvan leveyteen */
         text-align: center;
