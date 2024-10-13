@@ -72,6 +72,7 @@ body {
     background-image: url('P Taustakuva.png');
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 /* For tablets (screen width between 768px and 1024px) */
@@ -97,7 +98,7 @@ body {
 }
 
 /* For small devices like smartphones (screen width up to 767px) */
-@media only screen and (max-width: 1800px) {
+@media only screen and (max-width: 767px) {
     body {
         background-image: url('M Taustakuva.png');
         background-position: center;
