@@ -108,6 +108,7 @@ body {
         padding: 5px; /* Adds space between images */
         box-sizing: border-box; /* Ensures padding is included in the width calculation */
     }
+    }
 }
 
 /* For small devices like smartphones (screen width up to 767px) */
@@ -131,7 +132,9 @@ body {
         box-sizing: border-box; /* Sisällyttää paddingin kuvan leveyteen */
         text-align: center;
     }
-}
+    
+    }
+
 
 
 /* ALLA PUDOTUSVALIKKOON LIITTYVÄÄ*/
@@ -163,11 +166,14 @@ body {
 
 ul {
     list-style-type: decimal; /* Default is disc. You can also use circle, square, none */
+    list-style-position: inside;
+    text-align: left;
     padding-left: 20px; /* Indent the list for readability */
+    
 }
 
 li {
     margin-bottom: 10px; /* Add space between each list item */
     font-family: Eczar SemiBold; font-size: 20px;
-    text-align: center;
+    text-align: left;
 }
