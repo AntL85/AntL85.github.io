@@ -1,11 +1,13 @@
 h1 {
     color: rgb(0, 4, 219); font-family: Eczar ExtraBold, Arial, Helvetica, sans-serif;font-size: 20px;
     padding-top: 20px;
+    url('Eczar-ExtraBold.ttf') format('truetype');
 }
 
 h2 {
     color: rgb(0, 4, 219); font-family: Eczar ExtraBold, Arial, Helvetica, sans-serif;font-size: 20px;
     padding-top: 10px;
+    url('Eczar-ExtraBold.ttf') format('truetype');
 }
 
 /* VOI MYÖS KÄYTTÄÄ PIILOTTAMISEEN JOS EI TIEDÄ KÄYTTÄÄKÖ
@@ -16,6 +18,7 @@ p {
 
 p {
     color: black; font-family: Eczar SemiBold, Arial, Helvetica, sans-serif;font-size: 20px;
+    url('Eczar-SemiBold.ttf') format('truetype');
 }
 
 /* SPAN ATRIBUUTIN VOI YKSILÖIDÄ HTML PUOLELLA -> 
