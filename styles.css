@@ -79,7 +79,7 @@ body {
 }
 
 /* For tablets (screen width between 768px and 1024px) */
-@media only screen and (max-width: 1024px) and (min-width: 820px) {
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
     body {
         background-image: url('TTaustakuva.png');
         background-position: center;
@@ -152,11 +152,12 @@ body {
 }
 
 ul {
-    list-style-type: disc; /* Default is disc. You can also use circle, square, none */
+    list-style-type: decimal; /* Default is disc. You can also use circle, square, none */
     padding-left: 20px; /* Indent the list for readability */
 }
 
 li {
     margin-bottom: 10px; /* Add space between each list item */
     font-family: Eczar SemiBold; font-size: 20px;
+    text-align: center;
 }
