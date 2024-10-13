@@ -72,7 +72,7 @@ section {
 
 /* Default background image (for larger screens or desktops) */
 body {
-    background-image: url('P Taustakuva.png');
+    background-image: url('PTaustakuva.png');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -81,7 +81,7 @@ body {
 /* For tablets (screen width between 768px and 1024px) */
 @media only screen and (max-width: 1024px) and (min-width: 820px) {
     body {
-        background-image: url('T Taustakuva.png');
+        background-image: url('TTaustakuva.png');
         background-position: center;
     }
 
@@ -103,7 +103,7 @@ body {
 /* For small devices like smartphones (screen width up to 767px) */
 @media only screen and (max-width: 767px) {
     body {
-        background-image: url('M Taustakuva.png');
+        background-image: url('MTaustakuva.png');
         background-position: center;
     }
 
