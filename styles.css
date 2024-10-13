@@ -54,24 +54,22 @@ span class="span_virhea" // CSS .span_vihrea */
 .Oikeayla {
     top: 0;
     right: 0;
-    size: 25vw;
 }
 
 .Vasenyla {
     top: 0;
     left: 0;
-    size: 25vw;
 }
 
 .KeskYlh {
     top: 0;
     left: 50%;
     transform: translateX(-50%); /* Centering horizontally */
-    size: 25vw;
 }
 
 .Oikeayla img, .Vasenyla img, .KeskYlh img {
     display: block;
+    size: 25vw;
     max-width: 150px; /* Adjust as needed */
     height: auto;
 }
