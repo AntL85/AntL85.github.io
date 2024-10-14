@@ -41,7 +41,7 @@ span class="span_virhea" // CSS .span_vihrea */
 /* Style the images to float side by side */
 .side-by-side {
     float: left; /* Float the images to the left */
-    width: 20%; /* Set each image to take % of the container's width */
+    width: 15%; /* Set each image to take % of the container's width */
     padding: 5px; /* Adds space between images */
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
 }
